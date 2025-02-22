@@ -1,7 +1,6 @@
-# 🌟 React - ThreeJS - EaselJS Drawing App 🎨
+# 🌟 React - ThreeJS - Drawing App 🎨
 
-Welcome to the **React-ThreeJS EaselJS Drawing App** – a powerful tool for creating 2D and 3D visualizations! This app covers you whether you're looking to draw, manipulate shapes, or view objects in a 3D scene. Let's unleash your creativity! 🌐✨ This is the perfect boilerplate to kickstart your drawing projects with React, ThreeJS, and EaselJS! 🚀
-
+Bem-vindo ao **React-ThreeJS Drawing App** – uma ferramenta poderosa para criar visualizações 2D e 3D! Este aplicativo cobre você, quer esteja procurando desenhar, manipular formas ou visualizar objetos em uma cena 3D. Vamos liberar sua criatividade! 🌐✨ Este é o boilerplate perfeito para dar o pontapé inicial em seus projetos de desenho com React, ThreeJS e EaselJS! 🚀
 ### 🎥 Demo Video
 
 https://github.com/user-attachments/assets/27ea7167-7dec-4ab3-911e-9e0686a1a496
@@ -10,18 +9,17 @@ https://github.com/user-attachments/assets/27ea7167-7dec-4ab3-911e-9e0686a1a496
 
 https://react-threejs-easeljs.web.app/
 
-## 🎯 Key Features
+## 🎯 Principais características
 
-- 🎨 **Draw Shapes:** Draw rectangles, circles, lines, and custom paths effortlessly with a click-and-drag interface.
-- ✋ **Shape Manipulation:** Move, drag, and delete shapes as needed. Shapes adjust in real time for a smooth experience!
-- 🌐 **3D Viewer:** Toggle between 2D and view-only 3D mode to see your drawings come to life in a new dimension.
-- 🎨 **Random Colors:** Each shape you create is assigned a random stroke and fill color.
-- ⚡ **Real-Time Updates:** Watch your canvas update instantly as you interact with shapes.
-- ⌨️ **Keyboard Support:** Delete selected shapes using the Delete or Backspace keys for quick editing.
+- 🎨 **Desenhar formas:** Desenhe retângulos, círculos, linhas e caminhos personalizados sem esforço com uma interface de clicar e arrastar.
+- ✋ **Manipulação de formas:** Mova, arraste e exclua formas conforme necessário. As formas se ajustam em tempo real para uma experiência suave!
+- 🌐 **Visualizador 3D:** Alterne entre o modo 2D e o modo somente visualização 3D para ver seus desenhos ganharem vida em uma nova dimensão.
+- 🎨 **Cores aleatórias:** Cada forma que você cria recebe um traço aleatório e uma cor de preenchimento.
+- ⚡ **Atualizações em tempo real:** Observe sua tela atualizar instantaneamente conforme você interage com as formas.
+- ⌨️ **Suporte ao teclado:** Exclua formas selecionadas usando as teclas Delete ou Backspace para edição rápida.
+## 🛠️ Pilha de tecnologia
 
-## 🛠️ Tech Stack
-
-This project is built using modern technologies:
+Este projeto foi criado usando tecnologias modernas:
 
 - **React** ⚛️
 - **Three.js** 🌐
@@ -32,34 +30,33 @@ This project is built using modern technologies:
 - **Firebase** 🔥
 - **SonarCloud** 🧪
 
-### 📦 Dependencies
+### 📦 Dependências
 
-The project relies on several key libraries:
+O projeto depende de várias bibliotecas principais:
 
-**React:** A library for building user interfaces.
-**Three.js:** A powerful 3D engine for rendering the 3D view mode.
-**EaselJS:** A library for drawing and manipulating 2D shapes.
-**Vite:** A fast build tool for modern web development.
-**Lodash:** A utility library for working with arrays, objects, and more.
+**React:** Uma biblioteca para construir interfaces de usuário.
+**Three.js:** Um poderoso mecanismo 3D para renderizar o modo de visualização 3D.
+**EaselJS:** Uma biblioteca para desenhar e manipular formas 2D.
+**Vite:** Uma ferramenta de construção rápida para desenvolvimento web moderno.
+**Lodash:** Uma biblioteca de utilitários para trabalhar com matrizes, objetos e muito mais.
 
-### 🚀 Getting Started
+### 🚀 Primeiros passos
 
-To start the project locally, fork the repo and follow these steps:
+Para iniciar o projeto localmente, bifurque o repositório e siga estas etapas:
 
 ```
-1. 🍴 Fork the repository
-2. 📥 Clone your forked repository
-3. 🛠️ Run `yarn install` to install dependencies
-4. 🚀 Run `yarn dev` to start the local development server
+1. 🍴 Bifurque o repositório
+2. 📥 Clone seu repositório bifurcado
+3. 🛠️ Execute `yarn install` para instalar dependências
+4. 🚀 Execute `yarn dev` para iniciar o servidor de desenvolvimento local
 ```
 
-The app will run on http://localhost:5173.
 
-### Expanding the ESLint configuration
+### Expandindo a configuração do ESLint
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Se você estiver desenvolvendo um aplicativo de produção, recomendamos atualizar a configuração para habilitar regras de lint com reconhecimento de tipo:
 
-- Configure the top-level `parserOptions` property like this:
+- Configure a propriedade de nível superior `parserOptions` assim:
 
 ```js
 export default tseslint.config({
@@ -73,10 +70,9 @@ export default tseslint.config({
 })
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
+- Substitua `tseslint.configs.recommended` por `tseslint.configs.recommendedTypeChecked` ou `tseslint.configs.strictTypeChecked`
+- Opcionalmente, adicione `...tseslint.configs.stylisticTypeChecked`
+- Instale [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) e atualize a configuração:
 ```js
 // eslint.config.js
 import react from 'eslint-plugin-react'
@@ -96,17 +92,3 @@ export default tseslint.config({
   },
 })
 ```
-
-### 👾 How can I contribute?
-
-- ⭐ Star the repository
-- 🛠️ Submit pull requests, report bugs, or suggest features
-
-### 📬 Get in Touch
-
-Feel free to reach out if you have any questions or need help:
-
-- **GitHub:** https://github.com/mustafacagri
-- **Linkedin:** [@MustafaCagri](https://www.linkedin.com/in/mustafacagri/)
-
-Made with ❤️ in 📍 Istanbul, using React ⚛️, Three.js 🌐, EaselJS 🎨, TypeScript 🔧, Vite ⚡, and Lodash 🛠️!
